@@ -1,0 +1,11 @@
+<!-- <h4>Projects</h4> -->
+<ul>
+    {% for project in site.data.projects %}
+<!--     <li>
+      <p><a href="{{ project.link }}" style="color:#3182bd">{{ project.name }}</a><br><small>{{ project.description }}</small></p>
+    </li> -->
+    <li>
+      <p><font color="#3182bd">{{ project.name }}</font><br><small>{{ project.description }}</small></p>
+    </li>
+    {% endfor %}
+</ul>

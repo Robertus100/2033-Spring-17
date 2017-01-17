@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>CIS 2033 </title>
+ <link href="http://localhost:4000/2033-Spring-17/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/2033-Spring-17"/>
+ <updated>2017-01-16T21:15:38-05:00</updated>
+ <id>http://localhost:4000/2033-Spring-17</id>
+ <author>
+   <name>David Dobor</name>
+   <email>2dave@temple.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Welcome to the Course!</title>
+   <link href="http://localhost:4000/2033-Spring-17#2017-01-16-22"/>
+   <updated>2017-01-16T15:10:00-05:00</updated>
+   <id>/welcome</id>
+   <content type="html">&lt;p&gt;Welcome to your first CIS 2033 class! We’ll get to know each other, talk about
+what to expect from the course, and briefly discuss administrative matters. We’ll
+then jump straight into course material.&lt;/p&gt;
+
+&lt;p&gt;Two features make this run of the course different from the previous versions:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;All programming assignments will be done in &lt;code class=&quot;highlighter-rouge&quot;&gt;python&lt;/code&gt; (no need to worry if
+  you have not programmed in python before: you’ll pick it up as we go along).&lt;/li&gt;
+  &lt;li&gt;After the midterm, a significant portion of this course will be devoted to
+Bayesian statistics and some of its applications, and there will be a hands-on project
+based on this material.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here is a link to the &lt;a href=&quot;https://david-dobor.github.io/2033Fall16/&quot; title=&quot;Fall 16 version of the course&quot;&gt;previous version (Fall ‘16)&lt;/a&gt; of the course.&lt;/p&gt;
+
+&lt;p&gt;Lecture slides, links to useful resources, homework and project assignments
+and other course related material will be posted here after each lecture.&lt;/p&gt;
+
+&lt;p&gt;Let’s have a great semester!&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ 
+</feed>

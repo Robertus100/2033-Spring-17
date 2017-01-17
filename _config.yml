@@ -1,0 +1,29 @@
+safe: false
+
+# build settings
+markdown: kramdown
+highlighter: rouge
+lsi: false
+permalink: /:title
+
+title: "CIS 2033 "
+description: "Section 4, Spring 2017. "
+baseurl: "/2033-Spring-17"
+url: "https://david-dobor.github.io" # replace by your site's url
+github_username:  david-dobor # (your name)
+accent: "#f7f7e6" # accent color for blog column
+
+author: "David Dobor"
+address: "327 SERC <br> 1925 N. 12th Street <br> Temple University <br>Philadelphia, PA"
+email: "2dave@temple.com"
+
+# google analytics tracking code, please change the value
+
+
+# language settings
+isolang: en
+
+# exclude files
+exclude:
+  - LICENSE
+  - README.md
