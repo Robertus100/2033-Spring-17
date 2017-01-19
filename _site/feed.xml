@@ -5,16 +5,21 @@
     <description>Section 4, Spring 2017. </description>
     <link>http://localhost:4000/2033-Spring-17/</link>
     <atom:link href="http://localhost:4000/2033-Spring-17/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 17 Jan 2017 20:31:42 -0500</pubDate>
-    <lastBuildDate>Tue, 17 Jan 2017 20:31:42 -0500</lastBuildDate>
+    <pubDate>Wed, 18 Jan 2017 23:57:56 -0500</pubDate>
+    <lastBuildDate>Wed, 18 Jan 2017 23:57:56 -0500</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
         <title>Week 1 Material Posted</title>
-        <description>&lt;p&gt;Please follow the link below for week 1’s reading assignment.&lt;/p&gt;
+        <description>&lt;p&gt;Please follow the link below for week 1’s reading assignment:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;1/1lecture/Lecture1.pdf&quot;&gt;Lecture 1 Notes.&lt;/a&gt;&lt;/li&gt;
-  &lt;!-- &lt;li&gt;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;&quot;&gt;&lt;/li&gt; --&gt;
+&lt;/ul&gt;
+&lt;p&gt;This week’s recitation will cover a &lt;code&gt;python&lt;/code&gt; introduction/refresher
+(whick includes lists, dictionaries and comprehensions) as well as an introduction to &lt;code&gt;
+numpy &lt;/code&gt; and plotting.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/david-dobor/2033-Spring-17/tree/master/images&quot;&gt;Starter files.&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Addidtional material will be posted after the recitation on Thursday, Jan 19.&lt;/p&gt;
