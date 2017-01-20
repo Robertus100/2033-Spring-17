@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  19 JAN 2017 19:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  19 JAN 2017 19:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -338,7 +338,7 @@ Package pdftex.def Info: TetraDie.png used on input line 104.
 Here is how much of TeX's memory you used:
  3810 strings out of 493089
  49900 string characters out of 6134842
- 132024 words of memory out of 5000000
+ 132028 words of memory out of 5000000
  7213 multiletter control sequences out of 15000+600000
  13711 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -352,7 +352,7 @@ s/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplb8
 a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><
 /usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on hwk01.pdf (3 pages, 125874 bytes).
+Output written on hwk01.pdf (3 pages, 125878 bytes).
 PDF statistics:
  50 PDF objects out of 1000 (max. 8388607)
  34 compressed objects within 1 object stream
