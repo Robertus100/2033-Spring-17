@@ -33,36 +33,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{rotating}
 
-\usepackage[framemethod=tikz]{mdframed}
-\newtheorem{question}{Question}
-\mdfdefinestyle{que}{
-  linecolor=cyan,
-  backgroundcolor=cyan!20,
-}
-\surroundwithmdframed[style=que]{question}
-
-\newtheorem{answer}{Answer}
-\mdfdefinestyle{ans}{
-  linecolor=cyan,
-  backgroundcolor=yellow!20
-  % , rotatebox
-}
-\surroundwithmdframed[style=ans]{answer}
-
-\usepackage{environ}
-\NewEnviron{Answer}
-{%
-\noindent
-\rotatebox[origin=c]{180}{%
-\noindent
-\begin{minipage}[t]{\linewidth}
-\begin{answer}
-\BODY
-\end{answer}%
-\end{minipage}%
-}%
-}%
-
 %%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
 
@@ -232,7 +202,7 @@ $$
 
 
 
-\newthought{\textit{Check Your Understanding: }}Let $A$, $B$, and $C$ be disjoint subsets of the sample space. For each one of the following statements, determine whether it is true or false. Note: "False" means "not guaranteed to be true."
+\newthought{\textit{Check Your Understanding: }}Let $A$, $B$, and $C$ be disjoint \marginnote{\color{teal} Please don't read the answers before attempting the questions.}subsets of the sample space. For each one of the following statements, determine whether it is true or false. Note: "False" means "not guaranteed to be true."
 
 \begin{align}
 &P(A) + P(A^c) + P(B) = P(A \cup A^c \cup B) \\
@@ -241,14 +211,23 @@ $$
 &P(A \cup B \cup C) \geq P(A \cup B)
 \end{align}
 
-\begin{Answer} \ 
-\begin{enumerate}
-\item[a)] False. For a counterexample, let $A = \emptyset, B = \Omega,$ and $C = \emptyset$.
-\item[b)] True. Sinse $A$ and $B$ are disjoint, we have $P(A) + P(B) = P(A \cup B) \leq 1.$
-\item[c)] False. For a counterexample, let $A = \emptyset, B = \Omega,$ and $C = \emptyset$.
-\item[d)] True. Since $A, B$, and $C$ are disjoint, we have 
+\vspace{1cm}
+
+\begin{turn}{180} 
+\color{teal}
+\begin{minipage}{\linewidth}
+Answers:
+\scriptsize
+\begin{enumerate}[(1)]
+\item  False.  For a counterexample, let $A = \emptyset, B = \Omega,$ and $C = \emptyset$. In that case, the left-hand side of the equation equals 2, whereas the right-hand side equals 1.
+\item  True. Since $A$ and $B$ are disjoint, we have $P(A) + P(B) = P(A \cup B) \leq 1.$ \newline
+\item False. For a counterexample, let $A = \emptyset, B = \Omega,$ and $C = \emptyset$. In that case, $P(A^c) + P(B) = 2$.
+\item  True. Since $A, B$, and $C$ are disjoint, we have $P(A \cup B \cup C) = P(A) + P(B) + P(C) \geq  P(A) + P(B) = P(A \cup B)$.
 \end{enumerate}
-\end{Answer}
+\end{minipage}
+\end{turn}
+
+
 
 
 
@@ -336,16 +315,27 @@ Can you see why this is true? This should follow right from the previous example
 In fact, this inequality even has a name. It's called the \textit{union bound inequality}. $\Box$
 
 
-\newthought{\textit{Check Your Understanding: }}Let $A$, $B$, and $C$ be subsets of the sample space, not necessarily disjoint. For each one of the following statements, determine whether it is true or false. Note: "False" means "not guaranteed to be true."
+\newthought{\textit{Check Your Understanding: }}Let $A$, $B$, and $C$ be subsets \marginnote{\color{teal} Please don't read the answers before attempting the questions.}of the sample space, not necessarily disjoint. For each one of the following statements, determine whether it is true or false. Note: "False" means "not guaranteed to be true."
 
 \setcounter{equation}{0}
 \begin{align}
-&P(A \cup B \cup C)  = P(A) + P(A^c \cap B) + P (A^c \cap B^c \cap C) \\
 &P((A \cap B) \cup (C \cap A^c)) \leq P(A \cup B \cup C) \\
 &P(A \cup B \cup C) = P(A \cap C^c) + P(C) + P(B \cap A^c \cap C^c)
 \end{align}
 
+\vspace{1cm}
 
+\begin{turn}{180} 
+\color{teal}
+\begin{minipage}{\linewidth}
+Answers:
+\scriptsize
+\begin{enumerate}[(1)]
+\item  True. This is because the set $(A \cap B) \cup (C \cap A^c)$ is a subset of $A \cup B \cup C$.
+\item  True. This is the same property shown in the last segment, with the three sets appearing in a different order.
+\end{enumerate}
+\end{minipage}
+\end{turn}
 
 
 \pagebreak
@@ -443,13 +433,23 @@ the number of elements of omega, which is $n$, finding the number $n$, and count
 elements of the set $A$. \textit{That's the reason why counting will turn out to be an important skill. And there will
 be a whole lecture devoted to this particular topic.}
 
-\newthought{\textit{Check Your Understanding: }}Consider the same model of two rolls of a tetrahedral die, with all 16 outcomes equally likely. Find the probability of the following events:
+\newthought{\textit{Check Your Understanding: }}Consider the same model \marginnote{\color{teal} Please don't read the answers before attempting the questions.}of two rolls of a tetrahedral die, with all 16 outcomes equally likely. Find the probability of the following events:
 \begin{enumerate}
 \item The value in the first roll is strictly larger than the value in the second roll.
 \item The sum of the values obtained in the two rolls is an even number.
 \end{enumerate}
 
-
+\begin{turn}{180} 
+\color{teal}
+\begin{minipage}{\linewidth}
+Answers:
+\scriptsize
+\begin{enumerate}[(1)]
+\item  The event of interest is \{(2,1), (3,1), (4,1), (3,2), (4,2), (4,3)\}. It consists of 6 elements (outcomes), each of which has probability 1/16, for an overall probability of 6/16 = 3/8
+\item  The event of interest is \{(1,1), (2,2), (3,3), (4,4), (1,3), (3,1), (2,4), (4,2)\}. It consists of 8 elements (outcomes), each of which has probability 1/16, for an overall probability of 8/16=1/2.
+\end{enumerate}
+\end{minipage}
+\end{turn}
 
 
 
@@ -530,8 +530,42 @@ take the point 0.5, 0.3, which sits somewhere in the square. The event of intere
 a single point. So we're asking for the probability that our dart falls exactly on top of that point.
 
 What is it? Well, it is the area of a set that consists of a single point. What is the area of a single point?
-It is 0. And similarly for any other single point inside that sample space that we might have considered,
+It is 0. And similarly for any other single point inside that sample space that we might have considered
 the answer is going to be 0.
+
+\newthought{\textit{Check Your Understanding: }} Consider a sample space \marginnote{\color{teal} Please don't read the answers before attempting the questions.}that is the rectangular region
+$[0, 1] \times [0, 2]$, i.e., the set of all pairs $(x, y)$ that satisfy $0 \leq x \leq 1$ and $0 \leq y \leq 2$.
+ Consider a "uniform" probability law, under which the probability of an event is half of the area of the event. 
+ Find the probability of the following events:
+ \begin{enumerate}[(a)]
+ \item The two components $x$ and $y$ have the same values.
+ \item The value, $x$, of the first component is larger than or equal to the value, $y$, of the second component.
+  \item The value $x^2$ is larger than or equal to the value of $y$. 
+ \end{enumerate}
+
+
+\vspace{1cm}
+
+\begin{turn}{180} 
+\color{teal}
+\begin{minipage}{\linewidth}
+Answers:
+\scriptsize
+\begin{enumerate}[(a)]
+\item This event is a line, and since a line has zero area, the probability is zero.
+\item  This event is a triangle with vertices at (0,0), (1,0), (1,1). Its area is 1/2, and therefore the probability is 1/4.
+\item This event corresponds to the region below the curve $y=x^2$, where $x$ ranges from 0 to 1. The area of this region is
+$$
+\int_{0}^{1} x^2 dx = \frac{x^3}{3} \bigg\rvert_0^1 = \frac{1}{3}
+$$
+and therefore the corresponding probability is 1/6.
+\end{enumerate}
+\end{minipage}
+\end{turn}
+
+
+
+
 
 \vspace{0.7cm}
 Let us now abstract from this example, as well as the previous one, and note the following. Probability

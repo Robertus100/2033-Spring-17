@@ -4,7 +4,7 @@
  <title>CIS 2033 </title>
  <link href="http://localhost:4000/2033-Spring-17/atom.xml" rel="self"/>
  <link href="http://localhost:4000/2033-Spring-17"/>
- <updated>2017-01-19T00:00:19-05:00</updated>
+ <updated>2017-01-19T19:21:54-05:00</updated>
  <id>http://localhost:4000/2033-Spring-17</id>
  <author>
    <name>David Dobor</name>
@@ -19,10 +19,14 @@
    <id>/1/lecture1</id>
    <content type="html">&lt;p&gt;Please follow the link below for week 1’s reading assignment:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;1/1lecture/Lecture1.pdf&quot;&gt;Lecture 1 Notes.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;1/1lecture/Lecture1.pdf&quot;&gt;Lecture 1 Notes.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;1/1lecture/Lecture2.pdf&quot;&gt;Lecture 2 Notes.&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;center&gt;&lt;a href=&quot;1/1lecture/hwk01.pdf&quot; style=&quot;color: blue&quot;&gt;HOMEWORK 1  is due on Thursday, January 26. &lt;/a&gt;&lt;/center&gt;
+
 &lt;p&gt;This week’s recitation will cover a &lt;code&gt;python&lt;/code&gt; introduction/refresher
-(whick includes lists, dictionaries and comprehensions) as well as an introduction to &lt;code&gt;
+(which includes lists, dictionaries and comprehensions) as well as an introduction to &lt;code&gt;
 numpy &lt;/code&gt; and plotting.&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/david-dobor/2033-Spring-17/tree/master/Recitations/1-2-3&quot;&gt;Starter files.&lt;/a&gt;&lt;/li&gt;
@@ -43,7 +47,7 @@ then jump straight into the course material.&lt;/p&gt;
 
 &lt;p&gt;Two features make this run of the course different from the previous versions:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;All programming assignments will be done in `python` (no need to worry if
+  &lt;li&gt;All programming assignments will be done in &lt;code&gt;python&lt;/code&gt; (no need to worry if
   you have not programmed in python before: you'll pick it up as we go along).&lt;/li&gt;
   &lt;li&gt;After the midterm, a significant portion of this course will be devoted to
 Bayesian statistics and some of its applications, and there will be a hands-on project
