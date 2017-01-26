@@ -709,14 +709,14 @@ P(A \cap B) = P(B \mid A) P(A) \\
 
 We used this formula in the context of a tree diagram, and we used it to calculate the probability of the
 $A \cap B$ leaf of 
-this tree by multiplying the probability of taking the
+the tree shown in Figure 13 by multiplying the probability of taking the
 branch labeled $P(A)$ and multiplying that probability by the the conditional probability of taking the branch
-goint from $A$ to $A\cap B$, which is the
-probability that event B also occurs given that event A has occurred, i.e. $P(B \mid A)$.
+going from $A$ to $A\cap B$, which is the
+probability that event $B$ also occurs given that event $A$ has occurred, i.e. $P(B \mid A)$.
 
 \vspace{0.2cm}
 \textit{How do we generalize this calculation?} Consider a situation in which the experiment has an additional
-third stage that has to do with another event, C, that may or may not occur.
+third stage that has to do with another event, $C$, that may or may not occur.
 
 \pagebreak
 \begin{marginfigure}
@@ -753,8 +753,8 @@ $$
 
 
 Can we simplify this even further? Yes. The first term is the probability of two events happening. So it
-can be simplified further as the probability that A complement occurs times the conditional probability
-that B occurs, given that A complement has occurred. And then we carry over the last term exactly the
+can be simplified further as the probability that $A^c$ occurs times the conditional probability
+that $B$ occurs, given that $A^c$ has occurred. And then we carry over the last term exactly the
 way it is.
 
 \begin{align*}
@@ -777,9 +777,9 @@ more than three events. The probability that a bunch of events all occur should 
 first event times a number of factors, each corresponding to a branch in a tree of this kind.
 
 In particular, the probability that events $A_1, A_2, \ldots A_n$ all occur is going to be 
-\begin{align*}
+\begin{align}
 P(A_1 \cap A_2 \cap \ldots A_n) = P(A_1) \ \prod_{i = 2}^n P (A_i \mid A_1 \cap \ldots \cap A_{i-1})
-\end{align*}
+\end{align}
 
 
 This is the most general version of the multiplication rule and allows you to calculate the probability
@@ -796,7 +796,24 @@ of several events happening by multiplying probabilities and conditional probabi
 \item $P(A \cap B \mid C) = P( A \mid C) P( B \mid A \cap C)$
 \end{enumerate}
 
-
+\vspace{3mm}
+\begin{turn}{180} 
+\color{teal}
+\begin{minipage}{\linewidth}
+%Answers:
+\scriptsize
+\begin{enumerate}
+\item This is the usual multipication rule applied to the two events $A \cap B$  and $C^c$.True. 
+\item This is the usual multiplication rule. In equation (2) above, consider the sequence of events $A, C^c,$ and $B$.True. 
+\item This is because
+$$
+P( C^c \cap A \mid A) = \frac{P( C^c \cap A \cap A)}{P(A)} = \frac{P(C^c \cap A)}{P(A)} = P(C^c \mid A).
+$$
+So, this statement is equivalent to the one in part 2.True. 
+\item This is the usual multiplication rule $P(A \cap B) = P(A) P(B | A)$, applied to a model/universe in which event $C$ is known to have occurred.True. 
+\end{enumerate}
+\end{minipage}
+\end{turn}
 
 
 \vspace{0.4cm}
@@ -903,7 +920,11 @@ when $|\alpha| < 1$.
 \begin{minipage}{\linewidth}
 %Answers:
 \scriptsize
-theanswerisonefifth
+theanswerisonefifth.\\  
+We think of the selection of coin $i$ as scenario/event $A_i$. By the total probability theorem, for the case of infinitely many scenarios,
+$$ 
+P(\text{Heads} ) = \sum_{i = 1}^\infty P(A_i) P(\text{Heads} \mid A_i ) = \sum_{i = 1}^\infty 2^{-i} 3^{-i} = \sum_{i = 1}^\infty (1/6)^i=\frac{1/6} {1 - (1/6)}.
+$$
 \end{minipage}
 \end{turn}
 
@@ -984,11 +1005,40 @@ of the time: if a person has the disease, the test result is positive with proba
 have the disease, the test result is negative with probability 0.95. A person drawn at random from a certain population 
 has probability 0.001 of having the disease.
 
+
+
 \begin{enumerate}
 \item Find the probability that a random person tests positive.
 \item Given that the person just tested positive, what is the probability he actually has the disease?
 \end{enumerate}
+
+
+
+\vspace{3mm}
+
+
+\begin{turn}{0} 
+\color{teal}
+\begin{minipage}{\linewidth}
+%Answers:
+\scriptsize
+Let $A$ be the event that the person has the disease, and $B$ the event that the test result is positive.
+\begin{enumerate}
+\item The desired probability is
+$$
+P(B) = P(A) P(B \mid A) + P(A^c) P(B \mid A^c) = 0.001 \times 0.95 + 0.999 \times 0.05 = 0.0509
+$$
+\item The desired probability is
+$$
+P(A \mid B) = \frac{P(A) P(B \mid A)}{P(B)} = \frac{0.001 \times 0.95}{0.0509} \approx 0.01866
+$$
+\end{enumerate}
+
+Note that even though the test was assumed to be fairly accurate, a person who has tested positive is still very unlikely (probability less than 2\%) to have the disease. The explanation is that when testing 1000 people, we expect about 1 person to have the disease (and most likely test positive), but also expect about 1000 $\times$  0.999 $\times$ 0.05 $\approx$ 50 people to test positive without having the disease. Hence, when we see a positive test, it is about 50 times more likely to correspond to one of the 50 false positives.
+\end{minipage}
+\end{turn}
 \end{document}
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
