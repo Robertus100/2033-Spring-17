@@ -6,6 +6,9 @@ date:   2017-01-31 22:10:00 +0200
 author: "David Dobor"
 ---
 
+
+<center><a href="3/lec5Independence/hwk03.pdf" style="color: blue">&#x261E; HOMEWORK 3  is due on Thursday, February 9. </a></center>
+
 <ul>
   <li><a href="https://youtu.be/2IkjUbUAOqQ">Lecture video</a> -
   examples of the Bayes' rule, independence of events.</li>
