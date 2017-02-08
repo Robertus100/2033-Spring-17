@@ -13,6 +13,12 @@ This week's reading assignment:
   on elemental combinatorics, binomial coefficients.</li>
 </ul>
 
+<ul>
+  <li><a href="https://youtu.be/nuP3aK637lw">Lecture video</a> -
+  the counting principle, permutations, combinations, binomial coefficients.</li>
+</ul>
+
+
 Recitation 4 files:
 <ul>
   <li>to be posted on Thursday, Feb 9.</li>
