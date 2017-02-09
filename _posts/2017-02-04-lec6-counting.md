@@ -18,8 +18,3 @@ This week's reading assignment:
   the counting principle, permutations, combinations, binomial coefficients.</li>
 </ul>
 
-
-Recitation 4 files:
-<ul>
-  <li>to be posted on Thursday, Feb 9.</li>
-</ul>
