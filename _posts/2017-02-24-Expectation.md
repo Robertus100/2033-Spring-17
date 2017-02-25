@@ -15,7 +15,7 @@ Reading assignment:
 <ul>
   <li>Sections 2.3 - 2.6 from the <a href="https://david-dobor.github.io/2033Fall16/TextBook.pdf#page=63">
             notes
-        </a>, excluding material related to the Poisson distribution (for now). Must be completed by March 6.</li>
+        </a>, excluding the material related to the Poisson distribution (for now), must be completed by March 6 and begun as soon as possible.</li>
 </ul>
 
 Short exercises with solutions:
