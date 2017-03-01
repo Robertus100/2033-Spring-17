@@ -23,3 +23,8 @@ Short exercises with solutions:
   <li><a href="7/Unit4-DicrRV-CYU.pdf" style="color: blue">"Check-Your-Understanding" Problems (with answers).</a></li>
 </ul>
 
+Slides
+<ul>
+  <li><a href="7/slides-clean.pdf">Slides, clean.</a></li>
+  <li><a href="7/slides-annotated.pdf">Slides, annotated.</a></li>
+</ul>
