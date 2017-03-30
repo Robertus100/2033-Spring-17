@@ -24,3 +24,11 @@ Reading assignment:
 <ul>
   <li>Notes: Chapter 3, General Random Variables. Sections 3.1 - 3.5 (pp 1 - 39).</li>
 </ul>
+
+Recitation starter files:
+<ul>
+  <li><a href="https://github.com/david-dobor/2033-Spring-17/tree/master/Recitations/5">NormalRV.ipynb</a></li>
+  <li><a href="https://github.com/david-dobor/2033-Spring-17/tree/master/Recitations/5">Exponential.ipynb</a></li>
+</ul>
+
+
