@@ -27,8 +27,8 @@ Reading assignment:
 
 Recitation starter files:
 <ul>
-  <li><a href="https://github.com/david-dobor/2033-Spring-17/tree/master/Recitations/5">NormalRV.ipynb</a></li>
-  <li><a href="https://github.com/david-dobor/2033-Spring-17/tree/master/Recitations/5">Exponential.ipynb</a></li>
+  <li><a href="https://github.com/david-dobor/2033-Spring-17/tree/master/Recitations/5/NormalRV.ipynb">NormalRV</a></li>
+  <li><a href="https://github.com/david-dobor/2033-Spring-17/tree/master/Recitations/5/Exponential.ipynb">Exponential</a></li>
 </ul>
 
 
