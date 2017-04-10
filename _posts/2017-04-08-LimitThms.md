@@ -6,6 +6,8 @@ date:   2017-04-08 10:10:00 +0200
 author: "David Dobor"
 ---
 
+<center><a href="10/hwk07a.pdf" style="color: blue">&#x261E; HOMEWORK 7a  is due on Thursday, April 13. </a></center>
+
 Useful Notebooks for Your Next Assignment
 <ul>
   <li><a href="https://github.com/david-dobor/2033-Spring-17/tree/master/Recitations/7/WLLN.ipynb" style="color: blue">An introduction to the Weak Law of Large Numbers.</a></li>
