@@ -27,7 +27,7 @@ Useful Notebooks for Your Next Assignment
 Slides:
 <ul>
   <li><a href="10/InequalitiesPartA.pdf">Inequalities.</a></li>
-  <li><a href="10/Central Limit Theorem.pdf">Inequalities.</a></li>
+  <li><a href="10/Central Limit Theorem.pdf">The Central Limit Theorem.</a></li>
 </ul>
 
 
